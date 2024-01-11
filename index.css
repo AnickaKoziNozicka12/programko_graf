@@ -1,0 +1,7 @@
+.bordel{
+    border: 2px solid black;
+    background-color: rgb(175, 104, 241);
+
+    width: 500px;
+    height: 200px;
+}

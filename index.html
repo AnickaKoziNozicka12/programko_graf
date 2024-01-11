@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>Testík</h1>
+    <p>Zadejte hodnotu. Přidaná hodnota se přidá do grafu.</p>
+
+    <button onclick="pridat()">Přidat</button>
+    <input placeholder="Zadejte hodnotu" id="hodnota"><br>
+    
+    <button onclick="delete_neco()">Smazat hodnotu</button>
+    <input placeholder="Smazat hodnotu" id="tahle_ven"><br>
+    
+    <button onclick="spojnicovy()">Spojnicový</button>
+    <button onclick="sloupcovy()">Sloupcový</button>
+    <button onclick="prolnuty()">Prolnutý</button><br><br>
+    
+    <canvas class="bordel" id="bordelik">
+
+    </canvas><br>
+
+    <button onclick="delete_all()">Vymazat data</button><br>
+    <p id="vypis"></p>
+    <p id="zkouska"></p>
+    <p id="nvm_uz"></p>
+
+</body>
+</html>
